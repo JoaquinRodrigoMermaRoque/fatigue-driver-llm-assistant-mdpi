@@ -1,0 +1,13 @@
+scope,subject_id,cue,calibration_mode,positive_runs,detected_positive_runs,missed_positive_runs,normal_runs,normal_false_activations,recall,specificity
+pooled_two_subjects,ALL,gaze,global,7,5,2,3,0,0.714286,1.000000
+pooled_two_subjects,ALL,nod,global,6,2,4,3,0,0.333333,1.000000
+pooled_two_subjects,ALL,gaze,personalized,7,5,2,3,0,0.714286,1.000000
+pooled_two_subjects,ALL,nod,personalized,6,5,1,3,0,0.833333,1.000000
+subject_001,subject_001,gaze,global,3,3,0,1,0,1.000000,1.000000
+subject_001,subject_001,nod,global,2,2,0,1,0,1.000000,1.000000
+subject_001,subject_001,gaze,personalized,3,3,0,1,0,1.000000,1.000000
+subject_001,subject_001,nod,personalized,2,1,1,1,0,0.500000,1.000000
+subject_002,subject_002,gaze,global,4,2,2,2,0,0.500000,1.000000
+subject_002,subject_002,nod,global,4,0,4,2,0,0.000000,1.000000
+subject_002,subject_002,gaze,personalized,4,2,2,2,0,0.500000,1.000000
+subject_002,subject_002,nod,personalized,4,4,0,2,0,1.000000,1.000000

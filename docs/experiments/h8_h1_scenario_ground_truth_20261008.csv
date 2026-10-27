@@ -1,0 +1,13 @@
+run_id,source,scenario,ground_truth_positive,target_cues,label_basis,notes
+H8_INT_NORMAL_01,INTERNAL,NORMAL,0,none,controlled_protocol,"Negative control: no intentional fatigue-associated cue"
+H8V2_INT_PERCLOS_01,INTERNAL,PERCLOS,1,eye_closure+perclos,controlled_protocol,"Positive controlled scenario with repeated sub-3-s eye closures"
+H8_INT_YAWN_01,INTERNAL,YAWN,1,yawn,controlled_protocol,"Positive controlled scenario with intentional sustained mouth-opening/yawn events"
+H8_INT_GAZE_01,INTERNAL,GAZE,1,gaze_away,controlled_protocol,"Positive controlled scenario with intentional prolonged gaze deviations"
+H8V2_INT_NOD_01,INTERNAL,NOD,1,nod,controlled_protocol,"Positive controlled scenario with intentional head nods; tracking loss is part of observed robustness behavior"
+H8V2_INT_COMBINED_01,INTERNAL,COMBINED,1,eye_closure+perclos+yawn+gaze_away+nod,controlled_protocol,"Positive controlled multi-cue scenario"
+H8_USB_NORMAL_01,USB,NORMAL,0,none,controlled_protocol,"Negative control: no intentional fatigue-associated cue"
+H8_USB_PERCLOS_01,USB,PERCLOS,1,eye_closure+perclos,controlled_protocol,"Positive controlled scenario with repeated sub-3-s eye closures"
+H8_USB_YAWN_02,USB,YAWN,1,yawn,controlled_protocol,"Positive controlled scenario with intentional yawn events"
+H8_USB_GAZE_01,USB,GAZE,1,gaze_away,controlled_protocol,"Positive controlled scenario with intentional prolonged gaze deviations"
+H8_USB_NOD_01,USB,NOD,1,nod,controlled_protocol,"Positive controlled repeated-nodding stress scenario; exact intentional nod count was not timestamp-annotated"
+H8_USB_COMBINED_01,USB,COMBINED,1,eye_closure+perclos+yawn+gaze_away+nod,controlled_protocol,"Positive controlled multi-cue scenario"

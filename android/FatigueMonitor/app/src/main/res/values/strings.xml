@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    ~ Copyright 2023 The TensorFlow Authors. All Rights Reserved.
+    ~
+    ~ Licensed under the Apache License, Version 2.0 (the "License");
+    ~ you may not use this file except in compliance with the License.
+    ~ You may obtain a copy of the License at
+    ~
+    ~       http://www.apache.org/licenses/LICENSE-2.0
+    ~
+    ~ Unless required by applicable law or agreed to in writing, software
+    ~ distributed under the License is distributed on an "AS IS" BASIS,
+    ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    ~ See the License for the specific language governing permissions and
+    ~ limitations under the License.
+-->
+<resources>
+    <string name="app_name">MP Face Landmarker</string>
+
+    <string name="media_pipe">MediaPipe</string>
+
+    <string name="alt_bottom_sheet_chevron">Bottom sheet expandable indicator</string>
+
+    <string name="alt_bottom_sheet_max_results_button_minus">Decreasing
+        maximum face results button</string>
+    <string name="alt_bottom_sheet_max_results_button_plus">Increasing
+        maximum face results button</string>
+    <string name="alt_bottom_sheet_threshold_button_minus">Decreasing
+        threshold of face detect results button</string>
+    <string name="alt_bottom_sheet_threshold_button_plus">Increasing
+        threshold of face detect results button</string>
+    <string name="menu_camera">Camera</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="tv_gallery_placeholder">Click + to add an image or a video
+        to begin running the face landmarker.</string>
+
+    <string name="label_inference_time">Inference Time</string>
+    <string name="label_fps">Frames per Second</string>
+    <string name="label_face_detection_confidence_threshold">Detection
+        Threshold</string>
+    <string name="label_face_tracking_confidence_threshold">Tracking
+        Threshold</string>
+    <string name="label_face_presence_confidence_threshold">Presence
+        Threshold</string>
+    <string name="label_num_faces">Number of Faces</string>
+    <string name="label_delegate">Delegate</string>
+
+    <string-array name="delegate_spinner_titles">
+        <item>CPU</item>
+        <item>GPU</item>
+    </string-array>
+    <string name="fatigue_metrics_waiting">Inicializando indicadores temporales…</string>
+    <string name="fatigue_metrics_no_face">SIN ROSTRO\nIndicadores temporales pausados</string>
+    <string name="fatigue_metrics_no_face_values">SIN ROSTRO\nPERCLOS: %1$.1f%% | Parpadeos: %2$d\nBostezos: %3$d | Mirada: %4$d eventos\nDatos válidos: %5$.1f%%\nPose: %6$d eventos | Cabeceos: %7$d\nEstado: %8$s | DATOS NO DISPONIBLES</string>
+    <string name="fatigue_metrics_invalid">Geometría facial no válida\nLos eventos en curso fueron cancelados</string>
+    <string name="fatigue_metrics_error">Error de análisis facial</string>
+    <string name="fatigue_metrics_values">EAR: %1$.4f | Cierre: %2$.2f s\nPERCLOS: %3$.1f%% | Parpadeos: %4$d\nMAR: %5$.4f | Apertura: %6$.2f s\nBostezos: %7$d\nMirada H/V: %8$.3f / %9$.3f | %10$s\nFuera: %11$.2f s | Eventos: %12$d\nDatos válidos: %13$.1f%%\nPose P/Y/R: %14$.1f / %15$.1f / %16$.1f°\nPose escala/error: %17$.3f / %18$.4f\nPose relativa: %19$.1f / %20$.1f / %21$.1f° | %22$s\nPose fuera: %23$.2f s | Eventos: %24$d\nCabeceo: %25$.2f s | Eventos: %26$d\nFusión: %27$.3f | %28$s\nEvidencias: %29$s\nRecientes B/C: %30$d / %31$d\nDisponibilidad: %32$.0f%%\n%33$s</string>
+    <string name="camera_source_internal">Cámara: teléfono</string>
+    <string name="camera_source_usb">Cámara: USB</string>
+    <string name="calibration_button">Calibrar</string>
+    <string name="driver_context_button">Contexto</string>
+    <string name="driver_context_intro_title">Antes de conducir</string>
+    <string name="driver_context_intro_message">¿Deseas añadir información reciente que pueda influir en tu nivel de alerta antes de iniciar la conducción? Se guarda solo en este dispositivo y se usa únicamente para contextualizar las alertas; no modifica la detección de fatiga.</string>
+    <string name="driver_context_add">Añadir contexto</string>
+    <string name="driver_context_skip">Omitir</string>
+    <string name="driver_context_title">Contexto reciente del conductor</string>
+    <string name="driver_context_sleep_last_label">Sueño de la última noche (horas)</string>
+    <string name="driver_context_sleep_last_hint">Ej. 5.5</string>
+    <string name="driver_context_sleep_avg_label">Promedio aproximado de sueño de las últimas 3 noches (horas)</string>
+    <string name="driver_context_sleep_avg_hint">Ej. 6.2</string>
+    <string name="driver_context_wake_label">Hora en que despertaste</string>
+    <string name="driver_context_wake_hint">HH:mm, ej. 06:30</string>
+    <string name="driver_context_sleepiness_label">Somnolencia percibida ahora (1–9)</string>
+    <string name="driver_context_shift_label">Horas de jornada reciente</string>
+    <string name="driver_context_shift_hint">Ej. 10</string>
+    <string name="driver_context_night_shift_label">¿Fue turno nocturno?</string>
+    <string name="driver_context_physical_label">Demanda física reciente</string>
+    <string name="driver_context_mental_label">Demanda mental reciente</string>
+    <string name="driver_context_not_reported">No registrado</string>
+    <string name="driver_context_no">No</string>
+    <string name="driver_context_yes">Sí</string>
+    <string name="driver_context_save">Guardar contexto</string>
+    <string name="driver_context_cancel">Cancelar</string>
+    <string name="driver_context_saved">Contexto guardado localmente</string>
+    <string name="driver_context_invalid">Revisa los datos ingresados o añade al menos un campo válido</string>
+    <string name="driver_context_invalid_hours">Usa un valor entre 0 y 24. Ej.: 8 o 8.5</string>
+    <string name="driver_context_invalid_wake">Usa formato HH:mm. Ej.: 06:30</string>
+    <string name="driver_context_fix_marked">Corrige los campos marcados</string>
+    <string name="usb_camera_starting">Abriendo webcam USB…</string>
+    <string name="usb_camera_unavailable">No se pudo abrir la webcam USB</string>
+    <string name="fatigue_ack_requested">Reconocimiento solicitado</string>
+    <string name="fatigue_ack_hint">Toca la tarjeta para reconocer la alerta</string>
+</resources>

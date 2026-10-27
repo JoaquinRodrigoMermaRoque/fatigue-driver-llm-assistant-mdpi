@@ -1,0 +1,33 @@
+# Entornos virtuales de Python
+desktop/DT001/
+desktop/DT001_respaldo_*/
+desktop/.venv/
+
+# Cachés de Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Configuraciones locales de editores
+.vscode/
+.idea/
+
+# Datos experimentales generados por frame
+desktop/experiments/features/*.csv
+
+
+# Perfiles personales y resultados derivados
+desktop/calibration_profiles/*.json
+desktop/experiments/results/*.csv
+
+
+desktop/experiments/predictions/*.csv
+
+
+# Modelos locales pesados
+models/optional/
+models/vosk-model-small-es-0.42/
+
+# Copias temporales del código
+desktop/src/*_backup.py
+desktop/src/*_antes_correccion.py

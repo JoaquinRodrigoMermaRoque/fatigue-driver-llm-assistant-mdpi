@@ -1,0 +1,62 @@
+WARNING: Logging before InitGoogle() is written to STDERR
+W0000 00:00:1789484457.765770   35606 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1789484457.777512   35611 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1789484457.801971   35612 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+QFontDatabase: Cannot find font directory /home/joacoubuntu/fatigue-driver-prototype/desktop/DT001/lib/python3.11/site-packages/cv2/qt/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+QFontDatabase: Cannot find font directory /home/joacoubuntu/fatigue-driver-prototype/desktop/DT001/lib/python3.11/site-packages/cv2/qt/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+QFontDatabase: Cannot find font directory /home/joacoubuntu/fatigue-driver-prototype/desktop/DT001/lib/python3.11/site-packages/cv2/qt/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+QFontDatabase: Cannot find font directory /home/joacoubuntu/fatigue-driver-prototype/desktop/DT001/lib/python3.11/site-packages/cv2/qt/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+QFontDatabase: Cannot find font directory /home/joacoubuntu/fatigue-driver-prototype/desktop/DT001/lib/python3.11/site-packages/cv2/qt/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+Modelo: /home/joacoubuntu/fatigue-driver-prototype/models/face_landmarker.task
+Cámara seleccionada: 0
+Indicador activo: EAR
+Presiona Q para cerrar.
+Primer rostro detectado
+Cantidad de landmarks: 478
+Matriz facial disponible: True
+Ancho mínimo requerido: 100.0 px
+EAR=0.2953 | ancho=131.8px | valido=True
+EAR=0.3529 | ancho=147.8px | valido=True
+EAR=0.3422 | ancho=146.6px | valido=True
+EAR=0.3695 | ancho=146.1px | valido=True
+EAR=0.3853 | ancho=142.2px | valido=True
+EAR=0.4022 | ancho=144.1px | valido=True
+EAR=0.5112 | ancho=144.2px | valido=True
+EAR=0.4678 | ancho=145.3px | valido=True
+EAR=0.4247 | ancho=141.9px | valido=True
+EAR=0.4143 | ancho=141.7px | valido=True
+EAR=0.3983 | ancho=142.5px | valido=True
+EAR=0.3909 | ancho=145.8px | valido=True
+EAR=0.0883 | ancho=141.7px | valido=True
+EAR=0.3625 | ancho=142.9px | valido=True
+EAR=0.3616 | ancho=146.4px | valido=True
+EAR=0.0743 | ancho=144.2px | valido=True
+EAR=0.3201 | ancho=143.7px | valido=True
+EAR=0.0641 | ancho=143.6px | valido=True
+EAR=0.3792 | ancho=144.4px | valido=True
+EAR=0.3829 | ancho=146.2px | valido=True
+EAR=0.0545 | ancho=143.5px | valido=True
+EAR=0.3852 | ancho=144.7px | valido=True
+EAR=0.0679 | ancho=143.9px | valido=True
+EAR=0.3880 | ancho=146.0px | valido=True
+EAR=0.0557 | ancho=145.2px | valido=True
+EAR=0.4040 | ancho=145.4px | valido=True
+EAR=0.3527 | ancho=145.1px | valido=True
+EAR=0.3419 | ancho=147.6px | valido=True
+EAR=0.2412 | ancho=146.5px | valido=True
+EAR=0.0471 | ancho=145.5px | valido=True
+EAR=0.0449 | ancho=145.8px | valido=True
+EAR=0.3583 | ancho=144.4px | valido=True
+EAR=0.3357 | ancho=148.5px | valido=True
+EAR=0.2798 | ancho=146.3px | valido=True
+EAR=0.2941 | ancho=135.1px | valido=True
+EAR=0.3782 | ancho=116.9px | valido=True
+EAR=0.3126 | ancho=133.5px | valido=True
+Cámara liberada correctamente.

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "weights": {
+    "closure": 0.30,
+    "perclos": 0.25,
+    "yawn": 0.15,
+    "gaze": 0.10,
+    "nod": 0.20
+  },
+  "A": {
+    "active_cues": ["closure"],
+    "calibration": "global",
+    "gaze_source": "none"
+  },
+  "B": {
+    "active_cues": ["closure", "yawn"],
+    "calibration": "global",
+    "gaze_source": "none"
+  },
+  "C": {
+    "active_cues": ["closure", "yawn", "perclos"],
+    "calibration": "global",
+    "gaze_source": "none"
+  },
+  "D": {
+    "active_cues": ["closure", "yawn", "perclos", "gaze"],
+    "calibration": "global",
+    "gaze_source": "geometric"
+  },
+  "E": {
+    "active_cues": ["closure", "yawn", "perclos", "gaze", "nod"],
+    "calibration": "global",
+    "gaze_source": "geometric"
+  },
+  "F": {
+    "active_cues": ["closure", "yawn", "perclos", "gaze", "nod"],
+    "calibration": "personal",
+    "gaze_source": "geometric"
+  },
+  "G": {
+    "active_cues": ["closure", "yawn", "perclos", "gaze", "nod"],
+    "calibration": "personal",
+    "gaze_source": "mobileone",
+    "optional": true
+  }
+}
