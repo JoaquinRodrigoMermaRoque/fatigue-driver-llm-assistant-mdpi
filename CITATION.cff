@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software or its experimental artifacts, please cite the associated manuscript and this repository."
+title: "Driver Fatigue Detection with Offline Contextual Voice Assistance"
+type: software
+authors:
+  - family-names: "Merma Roque"
+    given-names: "Joaquín Rodrigo"
+repository-code: "https://github.com/JoaquinRodrigoMermaRoque/fatigue-driver-llm-assistant-mdpi"
+url: "https://github.com/JoaquinRodrigoMermaRoque/fatigue-driver-llm-assistant-mdpi"
+version: "1.0.0"
+date-released: "2026-10-27"
