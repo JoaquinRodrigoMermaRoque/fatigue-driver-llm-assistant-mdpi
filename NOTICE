@@ -1,0 +1,11 @@
+Driver Fatigue Detection with Offline Contextual Voice Assistance
+Copyright 2026 Joaquín Rodrigo Merma Roque
+
+Original contributions to the research prototype are made available under Apache License, Version 2.0, as stated in LICENSE and LICENSING.md.
+
+The Android application was developed using the Google MediaPipe / TensorFlow Face Landmarker Android example. Retain upstream notices including:
+  Copyright 2022/2023 The TensorFlow Authors.
+  Apache License, Version 2.0.
+  android/FatigueMonitor/LICENSE.upstream
+
+Third-party software, pretrained model files and model weights retain their original rights and conditions. See THIRD_PARTY.md and LICENSING.md. This NOTICE does not grant additional rights in third-party assets or participant-related research data.

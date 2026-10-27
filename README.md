@@ -85,3 +85,9 @@ Working title:
 **A face-landmarks personalized driver fatigue detector with contextualized LLM voice assistant framework for resource-limited Android devices**
 
 The final article citation and DOI should be added here after publication.
+
+## License and research data scope
+
+The author's original source-code contributions are provided under the **Apache License 2.0**. Parts derived from the MediaPipe/TensorFlow example retain their upstream Apache-2.0 notices. This does **not** relicense third-party models, software, or experimental participant-related data. See [LICENSE](LICENSE), [LICENSING.md](LICENSING.md), [NOTICE](NOTICE), and [THIRD_PARTY.md](THIRD_PARTY.md).
+
+The fixed scientific snapshot is the GitHub release [v1.0-mdpi-paper](https://github.com/JoaquinRodrigoMermaRoque/fatigue-driver-llm-assistant-mdpi/releases/tag/v1.0-mdpi-paper). Later documentation improvements on `main` do not change the experimental results in that version.
