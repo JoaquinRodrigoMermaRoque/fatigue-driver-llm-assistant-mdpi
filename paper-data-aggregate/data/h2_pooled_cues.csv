@@ -1,0 +1,5 @@
+mode,cue,positive_runs,detected_positive_runs,missed_positive_runs,normal_runs,normal_false_activations,recall,specificity
+global,gaze,7,5,2,3,0,0.714286,1.000000
+global,nod,6,2,4,3,0,0.333333,1.000000
+personalized,gaze,7,5,2,3,0,0.714286,1.000000
+personalized,nod,6,5,1,3,0,0.833333,1.000000

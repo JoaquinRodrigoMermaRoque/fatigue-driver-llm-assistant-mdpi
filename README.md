@@ -91,3 +91,7 @@ The final article citation and DOI should be added here after publication.
 The author's original source-code contributions are provided under the **Apache License 2.0**. Parts derived from the MediaPipe/TensorFlow example retain their upstream Apache-2.0 notices. This does **not** relicense third-party models, software, or experimental participant-related data. See [LICENSE](LICENSE), [LICENSING.md](LICENSING.md), [NOTICE](NOTICE), and [THIRD_PARTY.md](THIRD_PARTY.md).
 
 The fixed scientific snapshot is the GitHub release [v1.0-mdpi-paper](https://github.com/JoaquinRodrigoMermaRoque/fatigue-driver-llm-assistant-mdpi/releases/tag/v1.0-mdpi-paper). Later documentation improvements on `main` do not change the experimental results in that version.
+
+## Aggregate-only numerical data package
+
+The [aggregate-only reproducibility package](paper-data-aggregate/README.md) provides pooled H1/H2 confusion counts, H2 cue summaries, H3 timing windows, Table 10 N/A evidence, and a standard-library Python numerical verifier. It deliberately omits individual participant runs, facial calibration measurements and collection timestamps. Run `python3 paper-data-aggregate/scripts/verify_aggregate_only.py` from this repository's root **after changing into `paper-data-aggregate/`** (or first `cd paper-data-aggregate` and then run the script). The package supports aggregate arithmetic verification, not an independent rerun of captured scenario predictions.
